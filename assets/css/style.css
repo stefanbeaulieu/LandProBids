@@ -1,0 +1,12 @@
+header h1.logo a {
+    max-width: 500px;
+}
+
+.spacer {
+    height: 175px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 50%;
+}
