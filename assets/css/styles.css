@@ -6,6 +6,31 @@
  * Twitter: @3rdwave_themes
 */
 /* ======= Base ======= */
+
+/* ================= Custom CSS ===============*/
+.text-box-label {
+  font-size: 8pt;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+.text-box-label input {
+  width: 100%;
+}
+
+.calculate-btn{
+  margin-top: 20px;
+}
+
+#delete{
+  cursor:pointer;
+  float:right;
+  color:red;
+  font-weight: bold;
+}
+
+/* ================= End Custom CSS ===============*/
+
 body {
   font-family: 'Roboto', arial, sans-serif;
   color: #444;

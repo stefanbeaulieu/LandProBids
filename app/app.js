@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import {routeJsx} from "./config/routes";
+import CommentBox from "./enhancements/lineItems";
+import Comment from "./enhancements/lineItems";
+import CommentForm from "./enhancements/lineItems";
 
-ReactDOM.render(routeJsx, document.getElementById("app"));
+ReactDOM.render(<CommentBox/>, document.getElementById("estimating"));
